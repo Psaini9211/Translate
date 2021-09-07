@@ -1,0 +1,87 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <title>Translate</title>
+</head>
+<body>
+    <div id="nav">
+        <div>
+        <img src="logo.png">
+        </div>
+
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+     
+    </div>
+
+
+    <div id="main">
+        <div class="box">
+     <div id="input_box">
+    <label>Translate From</label>
+    <select name="lang" id="Langs">
+        <option value="en" onclick="printData()">English</option>
+        <option value="ar" onclick="printData()">Arabic</option>
+        <option value="zh" onclick="printData()">Chinese</option>
+        <option value="fr" onclick="printData()">French</option>
+        <option value="de" onclick="printData()">German</option>
+        <option value="hi" onclick="printData()">Hindi</option>
+        <option value="id" onclick="printData()">Indonesian</option>
+        <option value="ga" onclick="printData()">Irish</option>
+        <option value="it" onclick="printData()">Italian</option>
+        <option value="ja" onclick="printData()">Japanese</option>
+        <option value="ko" onclick="printData()">Korean</option>
+        <option value="pl" onclick="printData()">Polish</option>
+        <option value="pt" onclick="printData()">Portuguese</option>
+        <option value="ru" onclick="printData()">Russian</option>
+        <option value="es" onclick="printData()">Spanish</option>
+        <option value="tr" onclick="printData()">Turkish</option>
+        <option value="vi" onclick="printData()">Vietnamese</option>
+    </select>
+    </div>
+        <textarea id="language_input"  oninput="printData()" ></textarea>
+        </div>
+
+
+        <div class="box">
+            <div>
+            <label>Translate To</label>
+            <select name="lang" id="out_language">
+            <option value="en" onclick="printData()">English</option>
+            <option value="ar" onclick="printData()">Arabic</option>
+            <option value="zh" onclick="printData()">Chinese</option>
+            <option value="fr" onclick="printData()">French</option>
+            <option value="de" onclick="printData()">German</option>
+            <option value="hi" onclick="printData()">Hindi</option>
+            <option value="id" onclick="printData()">Indonesian</option>
+            <option value="ga" onclick="printData()">Irish</option>
+            <option value="it" onclick="printData()">Italian</option>
+            <option value="ja" onclick="printData()">Japanese</option>
+            <option value="ko" onclick="printData()">Korean</option>
+            <option value="pl" onclick="printData()">Polish</option>
+            <option value="pt" onclick="printData()">Portuguese</option>
+            <option value="ru" onclick="printData()">Russian</option>
+            <option value="es" onclick="printData()">Spanish</option>
+            <option value="tr" onclick="printData()">Turkish</option>
+            <option value="vi" onclick="printData()">Vietnamese</option>
+            </select>
+        </div>
+            <div id="out_put"></div>
+        </div>
+
+
+      
+    </div>
+
+ 
+
+    <script src="main.js"></script>
+</body>
+</html>
